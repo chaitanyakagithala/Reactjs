@@ -2,8 +2,11 @@
 import './App.css';
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
-import Message from './Components/Message'
-
+//import Message from './Components/Message'
+//import FunctionClick from './Components/FunctionClick'
+//import ClassClick from './Components/ClassClick'
+import ParentComponent from './Components/ParentComponent'
+import RefsDemo from './Components/RefsDemo';
 function App() {
   return (
     <div className="App">
@@ -13,7 +16,12 @@ function App() {
       <Welcome name = "chaitanya"/>
       <Welcome name = "tarun"/>
       <Welcome name = "sameee"/>       */}
-      <Message/>
+      {/* <Message/> */}
+      {/* <FunctionClick/>
+      <ClassClick/> */}
+    {/* <ParentComponent/> */}
+    <RefsDemo/>
+    
     </div>
   );
 }
