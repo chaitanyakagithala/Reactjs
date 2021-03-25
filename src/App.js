@@ -1,12 +1,14 @@
 
 import './App.css';
+import ClickCounter from './Components/ClickCounter';
+import HoverCounter from './Components/HoverCounter';
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
 //import Message from './Components/Message'
 //import FunctionClick from './Components/FunctionClick'
 //import ClassClick from './Components/ClassClick'
-import ParentComponent from './Components/ParentComponent'
-import RefsDemo from './Components/RefsDemo';
+//import ParentComponent from './Components/ParentComponent'
+//import RefsDemo from './Components/RefsDemo';
 function App() {
   return (
     <div className="App">
@@ -20,8 +22,9 @@ function App() {
       {/* <FunctionClick/>
       <ClassClick/> */}
     {/* <ParentComponent/> */}
-    <RefsDemo/>
-    
+    {/* <RefsDemo/> */}
+    <ClickCounter name = "chay"/>
+    <HoverCounter/>
     </div>
   );
 }
