@@ -1,7 +1,8 @@
 
 import './App.css';
-import ClickCounter from './Components/ClickCounter';
-import HoverCounter from './Components/HoverCounter';
+// import ClickCounter from './Components/ClickCounter';
+// import HoverCounter from './Components/HoverCounter';
+import PostList from './Components/HttpGetMethod';
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
 //import Message from './Components/Message'
@@ -23,8 +24,9 @@ function App() {
       <ClassClick/> */}
     {/* <ParentComponent/> */}
     {/* <RefsDemo/> */}
-    <ClickCounter name = "chay"/>
-    <HoverCounter/>
+    {/* <ClickCounter name = "chay"/>
+    <HoverCounter/> */}
+    <PostList/>
     </div>
   );
 }
