@@ -2,7 +2,8 @@
 import './App.css';
 // import ClickCounter from './Components/ClickCounter';
 // import HoverCounter from './Components/HoverCounter';
-import PostList from './Components/HttpGetMethod';
+// import PostList from './Components/HttpGetMethod';
+import HttpPostRequest from './Components/HttpPostRequest';
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
 //import Message from './Components/Message'
@@ -26,7 +27,8 @@ function App() {
     {/* <RefsDemo/> */}
     {/* <ClickCounter name = "chay"/>
     <HoverCounter/> */}
-    <PostList/>
+    {/* <PostList/> */}
+    <HttpPostRequest/>
     </div>
   );
 }
